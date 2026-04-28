@@ -1,107 +1,123 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f5f7fb;
+    background: #e9edf5;
 }
 
-/* Header */
+/* MAIN CARD */
+.main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
 .header {
-    text-align: center;
-    padding: 20px;
     background: #0b2a5b;
     color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.logo {
-    font-size: 40px;
+.header h1 {
     margin: 0;
+    font-size: 38px;
 }
 
-.tagline {
-    font-size: 14px;
+.header p {
     color: #ffc107;
 }
 
-/* Hero Section */
-.hero {
+/* TITLE */
+.title {
     text-align: center;
-    padding: 30px;
-    background: white;
+    padding: 20px;
 }
 
-.hero h2 {
-    font-size: 28px;
-}
-
-.red {
+.title span {
     color: red;
     font-weight: bold;
 }
 
-.hero h3 {
+.pm-box {
+    display: inline-block;
     background: #0b2a5b;
     color: white;
-    display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 8px;
+    margin-top: 10px;
 }
 
 .author {
     margin-top: 10px;
-    color: #444;
+    color: #555;
 }
 
-/* Content Section */
+/* CONTENT */
 .content {
     display: flex;
-    padding: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
+/* LEFT */
 .left {
-    width: 50%;
+    flex: 1;
+    min-width: 250px;
 }
 
 .left ul {
-    list-style: none;
-    padding: 0;
+    padding-left: 20px;
 }
 
 .left li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
 }
 
+/* CIRCLE */
 .circle {
     margin-top: 20px;
     background: #0b2a5b;
     color: white;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    padding: 40px;
-    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
+/* RIGHT */
 .right {
-    width: 50%;
+    flex: 1;
+    min-width: 250px;
     text-align: center;
 }
 
 .right img {
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
 }
 
-/* Success Section */
-.success {
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
-    color: #0b2a5b;
+.img-label {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
 }
 
-/* Footer */
-.footer {
-    background: white;
-    padding: 20px;
+/* SUCCESS */
+.success {
     text-align: center;
+    font-weight: bold;
+    color: #0b2a5b;
+    padding: 15px;
+}
+
+/* FOOTER */
+.footer {
+    background: #f5f7fb;
+    text-align: center;
+    padding: 20px;
 }
