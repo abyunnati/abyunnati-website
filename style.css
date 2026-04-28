@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background: #0b2a5b;
+    color: white;
+}
+
+.logo {
+    font-size: 40px;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #ffc107;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 30px;
+    background: white;
+}
+
+.hero h2 {
+    font-size: 28px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.hero h3 {
+    background: #0b2a5b;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.author {
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    padding: 30px;
+}
+
+.left {
+    width: 50%;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.circle {
+    margin-top: 20px;
+    background: #0b2a5b;
+    color: white;
+    border-radius: 50%;
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+}
+
+.right {
+    width: 50%;
+    text-align: center;
+}
+
+.right img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Success Section */
+.success {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: #0b2a5b;
+}
+
+/* Footer */
+.footer {
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
